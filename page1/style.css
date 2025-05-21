@@ -1,0 +1,695 @@
+@media (min-width: 1024px){
+    /*логотип youtalk*/
+    .logo {
+        width: 51px;
+        height: 36px;
+
+    }
+    /*кнопка справа в header*/
+    .dropbtn2 {
+        width: 230px;
+        height: 48px;
+        background-color: #E3F5F5;
+        color: #03B2A5;
+        cursor: pointer;
+        border: none
+        
+    }
+    /*скрыла кнопку в этой версии сайта*/
+    .href-activ {
+        display: none;
+    }
+    .dropbtn {
+        display: none;
+    }
+    /*для позиционирования в header*/
+    section[class="header"] {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 51px 1fr 230px;
+    }
+    .dropdown {
+        grid-column: 2;
+        grid-auto-flow: column dense;
+
+    }
+    div[class^="logo"] {
+        grid-column: 1;
+    }
+    .dropbtn2 {
+        grid-column: 3;
+    } 
+    /*попытка отцентровать ссылки*/ 
+    a[class^=activ] {
+        margin-left: 3%;
+    }  
+/*первые мини блоки стили*/
+.description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+}
+p[class^="description-p"] {
+    margin: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: 1px solid #C1C5CD;
+    border-radius: 30px;
+}
+.description-p-text {
+    border-radius: 5em;
+    padding-right: 1%;
+    padding-left: 1%;
+
+ }
+ /*стиль для контент блоков*/
+ .vid {
+    display: flex;
+    position: relative;
+    align-items: stretch;
+    width: 100%;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+}
+div[class^="text"] {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border: 1px solid;
+    border-bottom-right-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    border-color: #DEDEDE;
+    margin: 2%;
+    padding: 2%;
+}
+ section[class="text"] {
+    display: grid;
+    grid-template-columns: 6, 1fr;
+    grid-template-rows: 3, 1fr;
+    }
+.text-one {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+.text-two {
+    grid-column: 4/7;
+    grid-row: 1;
+}
+.text-three {
+    grid-column: 1/3;
+    grid-row: 2;
+}
+.text-four {
+    grid-column: 3/5;
+    grid-row: 2;
+}
+.text-five {
+    grid-column: 5/7;
+    grid-row: 2;
+}
+.text-six {
+    grid-column: 1/3;
+    grid-row: 3; 
+}
+.text-seven {
+    grid-column: 3/5;
+    grid-row: 3;
+}
+.text-eight {
+    grid-column: 5/7;
+    grid-row: 3;
+}
+ .vid-icon {
+    margin: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: 1px solid #C1C5CD;
+    border-radius: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #c1c5cdb3; 
+    padding-left: 3%;
+}    
+.vid-icon2 {
+    margin: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: 1px solid #C1C5CD;
+    border-radius: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #c1c5cdb3;
+    margin-top: 13%; 
+    padding-left: 3%;
+}
+/*стиль кнопки "еще"*/
+.more {
+    width: 182px;
+    height: 48px;
+    color: white;
+    background-color: #35B3A9;
+    border-radius: 0.5em;
+    border-color: #35B3A9;
+    border-width: 0;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.botton-more {
+    text-align: center;
+}
+/*стиль для подвала*/
+.img-icon {
+    width: 32px;
+    height: 32px;
+    margin: 3%;
+}
+/*.participant {
+    width: 221px;
+    height: 50px;
+}*/
+.section-footer {
+    background-color:#2963A3;
+    display: grid;
+    grid-template-columns: 3, 184px 1fr 221px;
+    grid-template-rows: 2, 1fr;
+    padding: 4%;
+}
+.navigation {
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+.mail {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 4%;
+}
+.contacts{
+    grid-column: 3/4;
+    grid-row: 1;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+.note {
+    grid-column: 1/4;
+    grid-row: 2;
+    display: flex;
+    
+}
+.text-footer {
+    margin-left: 3%;
+}
+.navigation {
+    display: flex;
+
+}
+ul {
+    list-style-type: none;
+}
+.contacts-icon-two {
+    display: flex;
+    
+}
+
+}
+
+@media (min-width: 414px) and (max-width: 1024px) /*min заменить на 414*/ {
+.logo {
+    width: 48px;
+    height: 34px;
+    margin: 2%;
+}
+/*ссылки, кнопка шапки - стиль*/
+.dropbtn2 {
+    display: none;
+}
+main {
+    position: relative;
+    z-index: 1;
+}
+section[class="header"] {
+    z-index: 15;
+}
+    span {
+        display: none;
+    }
+    .dropbtn {
+        width: 40px;
+        height: 40px;
+        border: none;
+        background-image: url("images/buttom.png");
+        background-size: cover;
+        cursor: pointer;
+       
+          }
+    
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 2%;
+    z-index: 100;
+    
+    
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    /*background-color: #f9f9f9;*/
+    /*min-width: 160px;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    right: 0;
+    }
+    
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 100;
+    
+    }
+    .activ {
+    background-color: #e9ebf1;
+    }
+    .dropdown-content a:hover {background-color: #a8ddd9}
+    
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    .header {
+        display: flex;
+        width: 100%;
+        position: relative;
+        justify-content: space-between;
+}
+.href-activ {
+  background-color: #E3F5F5;
+  
+}  
+#href-color {
+  color: #03b2a5;
+}  
+/*первые мини блоки стили*/
+.description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+}
+p[class^="description-p"] {
+    margin: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: 1px solid #C1C5CD;
+    border-radius: 30px;
+}
+.description-p-text {
+    border-radius: 5em;
+    padding-right: 1%;
+    padding-left: 1%;
+
+ }
+/*стиль для контент блоков*/
+.vid {
+    display: flex;
+    position: relative;
+    align-items: stretch;
+    width: 100%;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+}
+div[class^="text"] {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border: 1px solid;
+    border-bottom-right-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    border-color: #DEDEDE;
+    margin: 2%;
+    padding: 2%;
+}
+ section[class="text"] {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    grid-template-rows: 5, 1fr;
+    }
+.text-one {
+    grid-column: 1/3;
+    grid-row: 1;
+}
+.text-two {
+    grid-column: 1/3;
+    grid-row: 2;
+}
+.text-three {
+    grid-column: 1;
+    grid-row: 3;
+}
+.text-four {
+    grid-column: 2/3;
+    grid-row: 3;
+}
+.text-five {
+    grid-column: 1;
+    grid-row: 4;
+}
+.text-six {
+    grid-column: 2/3;
+    grid-row: 4; 
+}
+.text-seven {
+    grid-column: 1;
+    grid-row: 5;
+}
+.text-eight {
+    grid-column: 2/3;
+    grid-row: 5;
+}
+ .vid-icon {
+    margin: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: 1px solid #C1C5CD;
+    border-radius: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #c1c5cdb3; 
+    padding-left: 3%;
+}    
+.vid-icon2 {
+    margin: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: 1px solid #C1C5CD;
+    border-radius: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #c1c5cdb3;
+    margin-top: 13%; 
+    padding-left: 3%;
+}
+/*стиль кнопки еще*/
+.more {
+    width: 182px;
+    height: 48px;
+    color: white;
+    background-color: #35B3A9;
+    border-radius: 0.5em;
+    border-color: #35B3A9;
+    border-width: 0;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.botton-more {
+    text-align: center;
+} 
+/*стиль для подвала*/
+.img-icon {
+    width: 32px;
+    height: 32px;
+    margin: 3%;
+}
+/*.participant {
+    width: 221px;
+    height: 50px;
+}*/
+.section-footer {
+    background-color:#2963A3;
+    display: grid;
+    grid-template-columns: 4, 247px 1fr 1fr 1fr;
+    grid-template-rows: 3, 1fr;
+    padding: 4%;
+}
+.navigation {
+    grid-column: 1/3;
+    grid-row: 1;
+    
+}
+.mail {
+    grid-column: 3/5;
+    grid-row: 1;
+    padding: 4%;
+}
+.contacts{
+    grid-column: 1/3;
+    grid-row: 2;
+    margin-top: 3%;
+    margin-right: 10%;
+    padding-left: 10%;
+}
+.note {
+    grid-column: 1/5;
+    grid-row: 3;
+    display: flex;
+    
+}
+.text-footer {
+    margin-left: 3%;
+}
+.navigation {
+    display: flex;
+
+}
+ul {
+    list-style-type: none;
+}
+.contacts-icon-two {
+    display: flex;
+    
+}
+
+}
+@media (max-width: 414px/*заменить на 414px*/){
+    main {
+        position: relative;
+        z-index: 1;
+    }
+    section[class="header"] {
+        z-index: 15;
+    }
+    .nav {
+        color: #646464;
+        margin-left: 2%;
+    }
+    .title {
+        margin-left: 2%;
+    }
+    section[class="text"] {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 1%;
+        z-index: 2;
+        
+    }
+    div[class^="text"] {
+        position: relative;
+        display: inline-block;
+        width: auto;
+        height: auto;
+        border: 1px solid;
+        border-bottom-right-radius: 1.5em;
+        border-bottom-left-radius: 1.5em;
+        border-top-left-radius: 1.5em;
+        border-top-right-radius: 1.5em;
+        border-color: #DEDEDE;
+        margin: 2%;
+        padding: 2%;
+    }
+    
+    .vid-icon2 {
+        margin: 1%;
+        padding-right: 1%;
+        padding-left: 1%;
+        border: 1px solid #C1C5CD;
+        border-radius: 30px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: #c1c5cdb3;
+        margin-top: 13%; 
+        padding-left: 3%;
+    }
+    .description {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      
+    }
+   
+    
+    .vid-icon {
+        margin: 1%;
+        padding-right: 1%;
+        padding-left: 1%;
+        border: 1px solid #C1C5CD;
+        border-radius: 30px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: #c1c5cdb3; 
+        padding-left: 3%;
+    }    
+    p[class^="description-p"] {
+        margin: 1%;
+        padding-right: 1%;
+        padding-left: 1%;
+        border: 1px solid #C1C5CD;
+        border-radius: 30px;
+    }
+    
+    
+    .description-p-text {
+       border-radius: 5em;
+       padding-right: 1%;
+       padding-left: 1%;
+    }
+    .vid {
+        display: flex;
+        position: relative;
+        align-items: stretch;
+        width: 100%;
+        border-top-left-radius: 1.5em;
+        border-top-right-radius: 1.5em;
+    }
+    .logo {
+        width: 48px;
+        height: 34px;
+        margin: 2%;
+    }
+    
+    span {
+        display: none;
+    }
+
+    .dropbtn {
+        width: 40px;
+        height: 40px;
+        border: none;
+        background-image: url("images/buttom.png");
+        background-size: cover;
+        cursor: pointer;
+       
+          }
+    
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 2%;
+    z-index: 100;
+   
+   
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /*background-color: #f9f9f9;*/
+    /*min-width: 160px;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 100;
+    
+}
+.activ {
+    background-color: #e9ebf1;
+}
+.dropdown-content a:hover {background-color: #a8ddd9}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header {
+          display: flex;
+          width: 100%;
+          position: relative;
+          justify-content: space-between;
+}
+.href-activ {
+    background-color: #E3F5F5;
+    
+}  
+#href-color {
+    color: #03b2a5;
+}  
+.more {
+    width: 182px;
+    height: 48px;
+    color: white;
+    background-color: #35B3A9;
+    border-radius: 0.5em;
+    border-color: #35B3A9;
+    border-width: 0;
+    margin-bottom: 3%;
+    cursor: pointer;
+   
+}
+.botton-more {
+    text-align: center;
+}
+
+.section-footer {
+    background-color:#2963A3;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: #FFFFFF;
+}
+ul {
+    list-style-type: none;
+}
+.mail-footer {
+    color: #FFFFFF;
+    margin: 3%;
+}
+.agree {
+    color: #FFFFFF;
+    margin: 3%;
+}
+.contacts-icon-one {
+    margin: 3%;
+}
+.contacts-icon-two {
+    display: flex;
+    margin: 3%;
+}
+.img-icon {
+    width: 32px;
+    height: 32px;
+    margin: 3%;
+}
+.text-footer {
+    color: #FFFFFF;
+    margin: 3%;
+}
+.dropbtn-block {
+    display: none;
+}
+}

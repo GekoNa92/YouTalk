@@ -1,0 +1,1215 @@
+
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/montserrat-v25-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/*общие стили*/
+.p-content {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+}
+.autor {
+    color: #494949;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+}
+.title-h {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+}
+.title-text {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+}
+.alarm-list-one {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+}
+.a-text-one {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+}
+.a-text-two {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+.a-text-three {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500; 
+}
+.img-four {
+    grid-column: 1;
+    margin-right: 2em;
+    
+}
+.p-text-four {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+}
+.text-four {
+    margin-top: 1em;
+}
+
+.a-text-five {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+}
+.a-text-six {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+}
+.li-text-seven, .a-text-eight, .p-text-nine {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+}
+.a-text-ten, .a-text-eleven, .a-text-twelve, .a-text-thirteen, .a-text-fourteen {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+}
+.alarm-title {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+}
+.ana-krimska-text {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+.ana-krimska-autor {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+}
+.box-img-text {
+    color: #868686;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+}
+.title-one {
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 48px;
+}
+.p-text-six, .p-text-ten, .p-text-fourteen {
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.h-text-seven {
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+/*рекламные слайды*/
+/*реклама "загружаем свободные окошки"*/
+
+.footer-list {
+    color: #E3F5F5;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.agree {
+    color: #E3F5F5;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+.text-footer {
+    color: #E3F5F5;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+.window {
+    background-color: #E6F0FD;
+    width: 100%;
+    padding: 20px;
+    /*фон бордюр*/
+    -moz-box-shadow:0 0 10px rgba(3, 178, 165, 0.5);
+    -webkit-box-shadow:0 0 10px rgba(3, 178, 165, 0.5);
+    box-shadow:0 0 10px rgba(3, 178, 165, 0.5);
+    transition: 0.5s;
+    border-radius: 3em;
+}
+.img-window {
+    width: 100%;
+}
+.win-one {    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    width: 234px;
+    margin: 0 auto;
+    
+}  
+
+.p-window {
+    display: flex;
+    justify-content: center;
+
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+    
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.a-window {
+    display: flex;
+    justify-content: center;
+
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    height: 100px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.footer-list {
+    line-height: 24px;
+}
+
+
+/*стиль кнопки "подробнее"*/
+.button-window-one {
+   
+    width: 182px;
+    height: 48px;
+    color: white;
+    background-color: #35B3A9;
+    border-radius: 0.5em;
+    border-color: #35B3A9;
+    border-width: 0;
+    margin-bottom: 3%;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.button-windows {
+    text-align: center;
+}
+/*вторая карточка реклама "Лилия"*/
+.psychologist {
+    width: 100%;
+    padding: 20px;
+    /*фон бордюр*/
+    -moz-box-shadow:0 0 10px rgba(3, 178, 165, 0.5);
+    -webkit-box-shadow:0 0 10px rgba(3, 178, 165, 0.5);
+    box-shadow:0 0 10px rgba(3, 178, 165, 0.5);
+    transition: 0.5s;
+    border-radius: 3em;
+}
+/*иконки верхние*/
+.psychologist-icon-text {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    background-color: #F3F4F8B2;
+    border-radius: 5em;
+    padding: 5px;
+}
+/*фото Лилии*/
+.psychologist-img {
+    text-align: center;
+}
+.img-psychologist {
+    border-radius: 50%;
+}
+/*текст имя*/
+.p-psychologist {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+/*профессия и стаж */
+.a-psychologist {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+}
+.a-psychologist-a {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2A7B1;
+}
+.psychologist-title {
+    text-align: center;
+}
+
+/*с чем работает*/
+.p-psychologist-list {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+}
+.list-psychologist-content-one {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+}
+/*третья реклама*/
+.img-dar-background {
+    width: 100%;
+    padding: 20px;
+    /*фон бордюр*/
+    -moz-box-shadow:0 0 10px rgba(3, 178, 165, 0.5);
+    -webkit-box-shadow:0 0 10px rgba(3, 178, 165, 0.5);
+    box-shadow:0 0 10px rgba(3, 178, 165, 0.5);
+    transition: 0.5s;
+    border-radius: 3em;
+}
+/*четвертая карточка*/
+.sale {
+    width: 100%;
+    padding: 20px;
+    /*фон бордюр*/
+    -moz-box-shadow:0 0 10px rgba(3, 178, 165, 0.5);
+    -webkit-box-shadow:0 0 10px rgba(3, 178, 165, 0.5);
+    box-shadow:0 0 10px rgba(3, 178, 165, 0.5);
+    transition: 0.5s;
+    border-radius: 3em;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    align-items: stretch;
+    
+}
+/*расположение елементов*/
+.sale-content {
+    grid-column: 1/4;
+    grid-row: 1/5;
+    margin-left: 1em;
+    
+}
+.sale-content-box-one {
+    grid-column: 4;
+    grid-row: 5;
+}
+.sale-content-box-two {
+    grid-column: 4;
+    grid-row: 5;
+}
+/*текст рекламы*/
+.sale-content-title {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700; 
+    color: #2963A3;
+}
+.sale-content-text {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400; 
+}
+.sale-content-price {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 4em;
+}
+/*кнопка купить*/
+.button-window-three {
+   
+    width: 182px;
+    height: 48px;
+    color: white;
+    background-color: #35B3A9;
+    border-radius: 0.5em;
+    border-color: #35B3A9;
+    border-width: 0;
+    margin-bottom: 3%;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+
+/*стили для списков*/
+li {
+    list-style-type: none;
+}
+.list-content-img {
+    width: 24px;
+    height: 24px;
+}
+/*main {
+    padding: 2%;
+}*/
+header {
+    padding: 2%;
+}
+/*картинки*/
+.title-img-one {
+    width: 100%;
+}
+.img-box {
+    width: 100%; 
+}
+
+.img-text-eleven {
+    width: 100%;
+}
+.img-text-twelve {
+    width: 100%;
+}
+/*стиль содержание*/
+.list-content {
+    margin-left: -3%;
+}
+.list-content-three {
+    margin-left: 5%;
+}
+.list-content-four {
+    margin-left: 7%;
+}
+.list-content-five {
+    margin-left: 9%;
+}
+/*стиль блок анна крымская*/
+.ana-krimska {
+    width: 100%;
+    background-color: #F3F7FE;
+    padding: 4%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+/*стиль блок тревога*/
+.alarm-list {
+    margin-left: -3%;
+}
+.alarm-list-one {
+    vertical-align: top;
+}
+/*блок с картинкой люди*/
+.box-img {
+    margin-bottom: 2%;
+}
+/*блок с вектором*/
+.text-two {
+    background-image: url('images/vector\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: 240px 168px;
+    background-position: center;
+    height: 168px;
+    text-align: center;
+    padding-top: 100px;
+    
+   
+}
+.text-six {
+    background-color: #FEFAEC;
+    padding: 3%;
+}
+.ul-text-seven {
+    margin-left: -3%;
+}
+.text-ten {
+    background-color: #FFF3EB;
+    padding: 3%;
+}
+.dekor {
+    display: flex;
+    justify-content: center;
+}
+.text-fourteen {
+    background-color: #03B2A51A;
+    padding: 3%;
+}
+.link-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.link-list2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.dots {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.button-three {
+    background-color: #16C8BB;
+    border: none;
+    color: #FFFFFF;
+    width: 238px;
+    height: 60px;
+}
+.response-text {
+    width: 348px;
+    height: 188px;
+
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 4em;
+    
+}
+.response-h {
+    margin: 3em;
+}
+.button {
+    margin: 3em;
+}
+.response-h1 {
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 48px;
+}
+.response-a {
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+.response {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: stretch;
+      
+}
+/*расположение елементов*/
+
+/*подвал*/
+.section-footer {
+    background-color:#2963A3;
+    display: grid;
+    grid-template-columns: 3, 184px 1fr 221px;
+    grid-template-rows: 2, 1fr;
+    padding: 4%;
+}
+.navigation {
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+.mail {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 4%;
+}
+.contacts{
+    grid-column: 3/4;
+    grid-row: 1;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+.note {
+    grid-column: 1/4;
+    grid-row: 2;
+    display: flex;
+    
+}
+.text-footer {
+    margin-left: 3%;
+}
+.navigation {
+    display: flex;
+
+}
+ul {
+    list-style-type: none;
+}
+.contacts-icon-two {
+    display: flex;
+    
+}
+
+
+@media (min-width: 1024px){
+    /*логотип youtalk*/
+    .logo {
+        width: 51px;
+        height: 36px;
+
+    }
+    /*кнопка справа в header*/
+    .dropbtn2 {
+        width: 230px;
+        height: 48px;
+        background-color: #E3F5F5;
+        color: #03B2A5;
+        cursor: pointer;
+        border: none
+        
+    }
+    /*скрыла кнопку в этой версии сайта*/
+    .href-activ {
+        display: none;
+    }
+    .dropbtn {
+        display: none;
+    }
+    /*для позиционирования в header*/
+    section[class="header"] {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 51px 1fr 230px;
+    }
+    .dropdown {
+        grid-column: 2;
+        grid-auto-flow: column dense;
+
+    }
+    div[class^="logo"] {
+        grid-column: 1;
+    }
+    .dropbtn2 {
+        grid-column: 3;
+    } 
+    /*попытка отцентровать ссылки*/ 
+    a[class^=activ] {
+        margin-left: 3%;
+    } 
+/*шрифт и цвет*/
+
+
+    /*грид сетка основная*/ 
+main {
+    display: grid;
+    grid-template-columns: 2, 1fr 350px;
+    grid-template-rows: 2, 1fr;
+}
+.body-text {
+    grid-column: 1/2;
+    margin: 3em;
+   
+}
+.sale-icon {
+    grid-column: 2;
+}
+.buttom-card {
+    grid-column: 1/2;
+    grid-row: 2;
+}
+/*исправление текста полдожения в теле*/
+.text-four {
+    display: grid;
+    grid-template-columns: 2, 1fr 1fr;
+    grid-template-rows: 1, 1fr;
+}
+
+.p-text-four {
+    grid-column: 2;
+}
+
+/*исправление текста полдожения в теле*/
+.text-eight {
+    display: grid;
+    grid-template-columns: 2, 1fr 1fr;
+    grid-template-rows: 1, 1fr;
+}
+.img-text-eight {
+    grid-column: 1;
+    margin: 2em;
+}
+.a-text-eight {
+    grid-column: 2;
+}
+/*исправление текста полдожения в теле*/
+.box-text {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1, 1fr;
+}
+.text-eleven {
+    grid-column: 1;
+    margin: 1em; 
+}
+.text-twelve {
+    grid-column: 2;
+    margin: 1em;
+}
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+   /*шапка*/
+   /*логотип youtalk*/
+   .logo {
+    width: 51px;
+    height: 36px;
+
+}
+/*кнопка справа в header*/
+.dropbtn2 {
+    width: 230px;
+    height: 48px;
+    background-color: #E3F5F5;
+    color: #03B2A5;
+    cursor: pointer;
+    border: none
+    
+}
+/*скрыла кнопку в этой версии сайта*/
+.href-activ {
+    display: none;
+}
+.dropbtn {
+    display: none;
+}
+/*для позиционирования в header*/
+section[class="header"] {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 51px 1fr 230px;
+}
+.dropdown {
+    grid-column: 2;
+    grid-auto-flow: column dense;
+
+}
+div[class^="logo"] {
+    grid-column: 1;
+}
+.dropbtn2 {
+    grid-column: 3;
+} 
+/*попытка отцентровать ссылки*/ 
+a[class^=activ] {
+    margin-left: 3%;
+} 
+   /*тело*/ 
+   /*грид сетка основная*/ 
+main {
+    display: grid;
+    grid-template-columns: 2, 1fr 222px;
+    grid-template-rows: 2, 1fr;
+}
+.body-text {
+    grid-column: 1/2;
+    margin: 3em;
+   
+}
+.sale-icon {
+    grid-column: 2;
+}
+.buttom-card {
+    display: none;
+}
+/*детали расположения*/
+.text-four {
+    display: grid;
+    grid-template-columns: 2, 1fr 1fr;
+    grid-template-rows: 1, 1fr;
+}
+.p-text-four {
+    grid-column: 2;
+}
+.text-eight {
+    display: grid;
+    grid-template-columns: 2, 1fr 1fr;
+    grid-template-rows: 1, 1fr;
+}
+.img-text-eight {
+    grid-column: 1;
+    margin-right: 2em;
+
+}
+.a-text-eight {
+    grid-column: 2;
+}
+.box-text {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1, 1fr;
+}
+.text-eleven {
+    grid-column: 1;
+    margin: 1em; 
+}
+.text-twelve {
+    grid-column: 2;
+    margin: 1em;
+}
+.links, .links2 {
+    display: none;
+}
+.response {
+    display: none;
+}
+   /*подвал*/
+   
+}
+
+@media (min-width: 414px) and (max-width: 768px){
+    
+   
+    .section {
+        display: flex;
+        justify-content: space-between;
+    }
+    .dropbtn-block {
+        display: none;
+    }
+    .dropbtn {
+        /*background-color: #3498DB;*/
+        color: white;
+        height: 16px;
+        width: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: #2980B9;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown a:hover {background-color: #ddd;}
+    
+    .show {display: block;}
+    
+    .text-four, .text-eight{
+        display: flex;
+        flex-direction: column;
+    }
+    .response {
+        display: none;
+    }
+    
+    main {
+        position: relative;
+        z-index: 1;
+    }
+    section[class="header"] {
+        z-index: 15;
+    }
+    .nav {
+        color: #646464;
+        margin-left: 2%;
+    }
+    .title {
+        margin-left: 2%;
+    }
+    section[class="text"] {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 1%;
+        z-index: 2;
+        
+    }
+    
+    .description {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .logo {
+        width: 48px;
+        height: 34px;
+        margin: 2%;
+    }
+    
+    span {
+        display: none;
+    }
+    
+    .dropbtn {
+        width: 18px;
+        height: 18px;
+        border: none;
+        background-image: url("images/header-button.png");
+        background-size: cover;
+        cursor: pointer;
+       
+          }
+    
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 2%;
+    z-index: 100;
+    
+    
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    /*background-color: #f9f9f9;*/
+    /*min-width: 160px;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    right: 0;
+    }
+    
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 100;
+    
+    }
+    .activ {
+    background-color: #e9ebf1;
+    }
+    .dropdown-content a:hover {background-color: #a8ddd9}
+    
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    
+    .header {
+          display: flex;
+          width: 100%;
+          position: relative;
+          justify-content: space-between;
+    }
+    .href-activ {
+    background-color: #E3F5F5;
+    
+    }  
+    
+    .more {
+    width: 182px;
+    height: 48px;
+    color: white;
+    background-color: #35B3A9;
+    border-radius: 0.5em;
+    border-color: #35B3A9;
+    border-width: 0;
+    margin-bottom: 3%;
+    cursor: pointer;
+    
+    }
+   /*скрытие элементов*/
+   .list-content-two, .list-content-three, .list-content-four, .list-content-five, .list-content-six {
+    display: none;
+   } 
+   .text-four {
+    display: grid;
+    grid-template-columns: 2, 1fr 1fr;
+    grid-template-rows: 1, 1fr;
+}
+.p-text-four {
+    grid-column: 2;
+    margin-top: 2em;
+}
+.text-eight {
+    display: grid;
+    grid-template-columns: 2, 1fr 1fr;
+    grid-template-rows: 1, 1fr;
+}
+.img-text-eight {
+    grid-column: 1;
+    margin: 2em;
+}
+.a-text-eight {
+    grid-column: 2;
+    margin-top: 2em;
+}
+.box-text {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1, 1fr;
+}
+.text-eleven {
+    grid-column: 1;
+    margin: 1em; 
+}
+.text-twelve {
+    grid-column: 2;
+    margin: 1em;
+}
+.links, .links2 {
+    display: none;
+}
+/*грид сетка реклама*/
+.sale-icon {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    
+}
+.window {
+    grid-column: 1;
+    grid-row: 1;
+    margin-right: 3em;
+    right: -20px;
+}
+.psychologist {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 3em;
+} 
+.dar-background {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    margin-right: 3em;
+}
+.sale {
+    grid-column: 2;
+    grid-row: 2;
+    width: 100%;
+    margin-left: 3em;
+}
+.buttom-card {
+    display: none;
+}
+/*подвал*/
+.section-footer {
+    background-color:#2963A3;
+    display: grid;
+    grid-template-columns: 2, 184px 1fr;
+    grid-template-rows: 3, 1fr;
+    padding: 4%;
+}
+.navigation {
+    grid-column: 1;
+    grid-row: 1;
+   padding-left: 0;
+}
+.mail {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 4%;
+}
+.contacts{
+    grid-column: 1/3;
+    grid-row: 2;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+.note {
+    grid-column: 1/3;
+    grid-row: 3;
+    display: flex;
+    
+}
+.text-footer {
+    margin-left: 3%;
+}
+.navigation {
+    display: flex;
+
+}
+ul {
+    list-style-type: none;
+}
+.contacts-icon-two {
+    display: flex;
+    
+}
+
+}
+
+/*не трогать!!!*/
+@media (max-width: 414px){
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+.dropbtn-block {
+    display: none;
+}
+.dropbtn {
+    /*background-color: #3498DB;*/
+    color: white;
+    height: 16px;
+    width: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.text-four, .text-eight{
+    display: flex;
+    flex-direction: column;
+}
+.response {
+    display: none;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+}
+section[class="header"] {
+    z-index: 15;
+}
+.nav {
+    color: #646464;
+    margin-left: 2%;
+}
+.title {
+    margin-left: 2%;
+}
+section[class="text"] {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1%;
+    z-index: 2;
+    
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.logo {
+    width: 48px;
+    height: 34px;
+    margin: 2%;
+}
+
+span {
+    display: none;
+}
+
+.dropbtn {
+    width: 18px;
+    height: 18px;
+    border: none;
+    background-image: url("images/header-button.png");
+    background-size: cover;
+    cursor: pointer;
+   
+      }
+
+.dropdown {
+position: relative;
+display: inline-block;
+margin: 2%;
+z-index: 100;
+
+
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+/*background-color: #f9f9f9;*/
+/*min-width: 160px;*/
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 100;
+right: 0;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+z-index: 100;
+
+}
+.activ {
+background-color: #e9ebf1;
+}
+.dropdown-content a:hover {background-color: #a8ddd9}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.header {
+      display: flex;
+      width: 100%;
+      position: relative;
+      justify-content: space-between;
+}
+.href-activ {
+background-color: #E3F5F5;
+
+}  
+
+.more {
+width: 182px;
+height: 48px;
+color: white;
+background-color: #35B3A9;
+border-radius: 0.5em;
+border-color: #35B3A9;
+border-width: 0;
+margin-bottom: 3%;
+cursor: pointer;
+
+}
+/*подвал*/
+.section-footer {
+    display: flex;
+    flex-direction: column;
+}
+}
